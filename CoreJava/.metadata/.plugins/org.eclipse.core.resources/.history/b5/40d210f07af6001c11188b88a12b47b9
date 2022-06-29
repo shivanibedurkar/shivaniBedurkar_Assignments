@@ -1,0 +1,11 @@
+package com.cg.program4;
+
+public class Progarm4 {
+
+	public static void main(String[] args) {
+		pair<String, String> object=new pair<String, String>("1","Hello");
+        System.out.println("{"+object.getObj1()+"="+object.getObj2()+"}");
+
+	}
+
+}

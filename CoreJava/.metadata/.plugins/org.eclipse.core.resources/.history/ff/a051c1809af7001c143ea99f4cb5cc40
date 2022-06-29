@@ -1,0 +1,14 @@
+package com.cg.program3;
+
+public class Program3 {
+
+	public static void main(String[] args) {
+		
+		int[] arr = {12,6,8,3,5,9,45};
+        int a=2;
+        int b=5;
+        NonGeneric obj= new NonGeneric();
+        obj.swap_ele(arr,a,b);
+        obj.print(arr);
+	}
+}

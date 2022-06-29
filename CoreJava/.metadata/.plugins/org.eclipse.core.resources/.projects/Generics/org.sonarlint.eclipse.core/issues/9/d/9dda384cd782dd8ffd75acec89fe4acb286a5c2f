@@ -1,0 +1,14 @@
+
+~	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(МзТРъяяяяH‡RMINORZ
+CODE_SMELL
+M
+java:S2326"E is not used in the method.(МзТРъяяяяH€RMAJORZ
+CODE_SMELL
+[
+java:S1197"*Move the array designators [] to the type.(МзТРъяяяяH‰RMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(м«ьћщяяяяHЊRMAJORZ
+CODE_SMELL
+U
+java:S1197"*Move the array designators [] to the type.(зюСsHЌRMINORZ
+CODE_SMELL

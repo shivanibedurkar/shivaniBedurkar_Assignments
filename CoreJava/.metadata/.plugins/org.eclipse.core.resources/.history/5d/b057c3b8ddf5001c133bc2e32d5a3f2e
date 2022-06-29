@@ -1,0 +1,9 @@
+package com.cg.program4;
+
+public class Cube extends Shape{
+	public void Draw() {
+		System.out.println("Cube is drawn");
+	}
+
+
+}

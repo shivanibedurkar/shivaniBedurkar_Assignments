@@ -1,0 +1,18 @@
+package com.cg.program2;
+
+public class Program2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Employee[] employee=new Employee[4];
+		
+		employee[0]=new Labour(1,"Jinping",1000);
+		employee[1]=new Labour(2,"Donald",2000);
+		employee[2]=new Manager(3,"Narendra",50000);
+		employee[2]=new Manager(4,"Yogi",50000);
+		
+		
+	}
+
+}

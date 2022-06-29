@@ -1,0 +1,19 @@
+package com.cg.assignment;
+
+public class Program2 {
+
+	public static void main(String[] args) {
+		
+				//length of strings
+		
+				String string1= "He11o ";
+				String string2= "How are you";
+				
+				String sstring3=string1.concat(string2);
+				System.out.println(sstring3);
+				//Concat strings
+				System.out.println("Concatination of two Strings is : "+string1+ " " + string2) ;
+
+	}
+
+}

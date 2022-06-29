@@ -1,0 +1,19 @@
+package com.cg.program4;
+
+public class Program4 {
+
+	public static void main(String[] args) {
+		
+		Shape Object1=new Cube();
+		Shape Object2=new Line();
+		Shape Object3=new Rectangle();
+		
+		Object1.drawShape();
+		Object2.drawShape();
+		Object3.drawShape();
+		
+		
+
+	}
+
+}

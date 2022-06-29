@@ -1,0 +1,38 @@
+package com.cg.program1;
+
+import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Program1 {
+	
+public static void main(String[] args) {
+
+	Scanner scanner = new Scanner(System.in);
+    System.out.println("Choose your sorting category");
+    System.out.println("1.name  2.id  3.salary   4.department");
+    int choose = scanner.nextInt();
+    //char choose = scanner.next().charAt(0);
+    Set<Employees> s = null;
+    if(choose == 1) {
+        s = new TreeSet<>(new nameComp());
+    }
+    else if(choose == 2) {
+        s = new TreeSet<>(new idComp());
+    }
+    else if(choose == 3) {
+        s = new TreeSet<>(new salComp());
+    }
+    else if(choose == 4) {
+        s = new TreeSet<>(new depComp());
+    }
+    s.add(new Employees ("Vivek",123,50000,"Dev"));
+    s.add(new Employees ("Saurav",456,60000,"HR"));
+    s.add(new Employees ("Aditya",789,30000,"Mgmt"));
+    s.add(new Employees("Gautam",111,90000,"Mgmt"));
+    s.add(new Employees("Dev",222,10000,"Dev"));
+    for(Employees temp:s) {
+        System.out.println(temp);
+	
+    }	
+}

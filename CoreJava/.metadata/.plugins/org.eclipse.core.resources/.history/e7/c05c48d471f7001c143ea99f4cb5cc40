@@ -1,0 +1,5 @@
+package com.cg.program8;
+
+public class thread extends Thread {
+
+}

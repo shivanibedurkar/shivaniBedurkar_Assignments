@@ -1,0 +1,9 @@
+package com.cg.program3;
+
+public class illeagalBankTransactionException extends Exception{
+	
+
+	illeagalBankTransactionException(String exception2){
+		super(exception2);
+	}
+}

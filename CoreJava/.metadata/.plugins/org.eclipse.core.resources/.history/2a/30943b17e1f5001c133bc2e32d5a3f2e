@@ -1,0 +1,8 @@
+package com.cg.Program6;
+
+public class ClassPersistence extends Persistence{
+	
+public void persist() {
+		
+	}
+}

@@ -1,0 +1,25 @@
+package com.cg.program5;
+
+public class Program4 {
+
+	public static void main(String[] args) {
+		Shape[] shape=new Shape[4];
+		
+		shape[0]=new Cube();
+		shape[1]=new Line();
+		shape[2]=new Rectangle();
+		
+		for (Shape shape2 : shape) {
+			shape2.drawShape();
+		}
+	
+//		draw_All(Object1);
+//		draw_All(Object2);
+//		draw_All(Object3);
+	}
+	
+//	public static void draw_All(Shape obj) {
+//		obj.drawShape();
+//	}
+
+}

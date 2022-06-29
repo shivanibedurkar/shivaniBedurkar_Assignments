@@ -1,0 +1,17 @@
+
+‘
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(“ÓÏÄûÿÿÿÿ8²¯ì¨š0Hõ
+RMINORZ
+CODE_SMELL
+q
+java:S1854
+"9Remove this useless assignment to local variable "store".(“ÓÏÄûÿÿÿÿ8¯›ûÉš0H“RMAJORZ
+CODE_SMELL
+b
+java:S1481
+"*Remove this unused "store" local variable.(“ÓÏÄûÿÿÿÿ8¯›ûÉš0H”RMINORZ
+CODE_SMELL
+e
+java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8¯›ûÉš0H–RMINORZ
+CODE_SMELL

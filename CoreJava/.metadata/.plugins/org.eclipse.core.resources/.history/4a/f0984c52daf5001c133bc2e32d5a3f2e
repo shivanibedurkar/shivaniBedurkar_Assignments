@@ -1,0 +1,21 @@
+package com.cg.program3;
+
+public class Program3 {
+
+	public static void main(String[] args) {
+		
+		SavingAccount s1 = new SavingAccount(101,"somu",50000);
+		SavingAccount s2 = new SavingAccount(102,"som1",70000);
+		CurrentAccount c1 = new CurrentAccount(200, "Mona", 50000.0);
+		
+		
+		System.out.println("Account Holder:" +s1.getAccountHolder()+"----"+"Balance:"+ s1.getBalance());
+		System.out.println("Account Holder:" +s2.getAccountHolder()+"----"+"Balance:"+ s2.getBalance());
+		System.out.println("Account Holder:" +c1.getAccountHolder()+"----"+"Balance:"+ c1.getBalance());
+		System.out.println("Account Holder:" +c2.getAccountHolder()+"----"+"Balance:"+ c2.getBalance());
+		
+
+
+	}
+
+}

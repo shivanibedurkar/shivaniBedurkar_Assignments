@@ -1,0 +1,5 @@
+package com.cg.prgrams;
+
+public class Manager extends Program1 {
+
+}

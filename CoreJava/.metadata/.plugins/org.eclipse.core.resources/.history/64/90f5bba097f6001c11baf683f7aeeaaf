@@ -1,0 +1,20 @@
+package com.cg.assignment;
+
+
+import java.lang.annotation.*;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+
+@interface test{
+	  int testCaseNo();
+	}
+
+public class Program1 {
+	@test(testCaseNo = 1)
+	public static void main(String[] args) {
+
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.cg.program2;
+
+public class Product {
+	
+	private String p_name;
+	  public Product(String p_name){
+	      this.p_name=p_name;
+	  }
+	  @Override
+	  public String toString(){
+	      return "Product name: "+p_name;
+	  }
+}

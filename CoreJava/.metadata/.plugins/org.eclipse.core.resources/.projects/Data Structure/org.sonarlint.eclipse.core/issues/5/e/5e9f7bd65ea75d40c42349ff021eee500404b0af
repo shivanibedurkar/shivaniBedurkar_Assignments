@@ -1,0 +1,20 @@
+
+	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜Á£àıÿÿÿÿ8¹¸Èš0H…	RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ñÄ¯Œüÿÿÿÿ8¹¸Èš0H‰	RMAJORZ
+CODE_SMELL
+‘
+java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ò¡¯ışÿÿÿÿ8¹¸Èš0Hƒ	RMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„€ÁûH€	RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Óõ•³úÿÿÿÿ8¹¸Èš0H‹	RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ÆÄÀç8¹¸Èš0HŒ	RMAJORZ
+CODE_SMELL
+s	java:S125#"<This block of commented-out lines of code should be removed.(÷ê“Íüÿÿÿÿ8±±¨Èš0Hª	RMAJORZ
+CODE_SMELL
+m	java:S125)"<This block of commented-out lines of code should be removed.(é‘Ê78±±¨Èš0H«	RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(’à´×ûÿÿÿÿ8¹¸Èš0Hˆ	RMAJORZ
+CODE_SMELL

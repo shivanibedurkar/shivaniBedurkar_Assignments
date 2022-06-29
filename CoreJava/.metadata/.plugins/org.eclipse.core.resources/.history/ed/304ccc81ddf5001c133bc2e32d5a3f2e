@@ -1,0 +1,6 @@
+package com.cg.program4;
+
+public abstract class Shape {
+	
+	abstact public void draw();
+}

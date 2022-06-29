@@ -1,0 +1,10 @@
+
+y	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óî ÀH¿RMINORZ
+CODE_SMELL
+|	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ÚŒ·HÀRMINORZ
+CODE_SMELL
+d	java:S106%"9Replace this use of System.out or System.err by a logger.(†˜ÍHÁRMAJORZ
+CODE_SMELL
+R
+java:S1905%"&Remove this unnecessary cast to "int".(†˜ÍHÂRMINORZ
+CODE_SMELL
